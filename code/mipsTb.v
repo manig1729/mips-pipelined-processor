@@ -33,7 +33,7 @@ module mipsTb;
       $dumpvars(0, mipsTb);             		  // remove them if simulating on ModelSim
       clk=0; rst=1;
 		  #4  rst=0;
-		  #100 $finish;
+		  #100 $finish;                           // This statement is not needed for ModelSim simulation
     end
 
 endmodule
