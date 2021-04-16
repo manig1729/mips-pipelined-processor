@@ -1,7 +1,7 @@
 # MIPS Pipelined Processor Implementation in Verilog
 This is a verilog implementation of a MIPS Pipelined Processor based on the design in Patterson and Hennessy's "Computer Organization and Design" book.
 
-For a detailed explanation, I would highly recommend you to go through the report in the assets folder.
+For a detailed explanation, I would highly recommend you to go through the [report](https://github.com/manig1729/mips-pipelined-processor/blob/master/assets/report-pipelined-processor.pdf "report").
 
 The instructions implemented on the processor are - 
 
