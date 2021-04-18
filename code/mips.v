@@ -8,7 +8,7 @@
     Most of the connections are self-explanatory and comments have been
     provided wherever necessary.
 
-    To simulate this, please run the mipsTb module.
+    To simulate the processor, please run the mipsTb module.
 */
 
 // The following include statements are only needed for GTKWave + iverilog simulation
@@ -34,6 +34,11 @@ module mips (clk, rst);
 
     input clk;
     input rst;
+
+
+    // Some wires needed are defined here
+    // iVerilog works when defining connections first and wires later
+    // but ModelSim gives errors when doing that
 
     // PC module
     wire [31:0] pc_out_IF;
