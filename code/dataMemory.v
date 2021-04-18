@@ -28,7 +28,7 @@ module dataMemory (clk, address, writeData, MemRead, MemWrite, ReadData);
     end
 
     always @(*) begin                               // For reading data
-      if (MemRead === 1)
+      if (MemRead == 1)
         ReadData = dataMem[address[6:2]];
     end
 
