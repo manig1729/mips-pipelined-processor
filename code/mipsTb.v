@@ -1,5 +1,5 @@
 /* 
-    Testbench for the Assignment 4 submission
+    Testbench for mips.v
 
     Author - Manikandan Gunaseelan
 
@@ -8,12 +8,12 @@
     the uut section in the simulation window and choose the 
     waveforms needed
 
-    You can see where this can be done on ModelSim and GTKWave
+    You can see how this can be done on ModelSim and GTKWave
     on page 3 of the report
 
-    The instructions loaded by default are the ones used in the 
-    report for beq instruction demonstration. Many other sample 
-    programs are also given in the instructionMemory.v file
+    The instructions loaded by default are miscellaneous
+    instructions given in program 5 in the report. Many other 
+    sample programs are also given in the instructionMemory.v file
 */
 
 `timescale 1ns / 1ns
