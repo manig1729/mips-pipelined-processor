@@ -1,5 +1,5 @@
 /*
-    Primary ALU
+    Primary ALU of the processor
 */
 
 module alu(n1, n2, aluControlSignal, aluOut, aluZero);

@@ -1,5 +1,6 @@
 /*
-    The Register file. 32 registers each of 32 bits.
+    The Register file is described here
+    It consists of 32 registers each of 32 bits
 
     Registers can be written into or read from, based on the 
     regWrite control signal.

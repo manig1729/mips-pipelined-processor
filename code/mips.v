@@ -2,7 +2,7 @@
     Main MIPS module for the processor
 
     This module defines all the circuit connections of the processor.
-    For the circuit diagram and brief overviews of each of the modules,
+    For the circuit diagram and description of each of the modules,
     do go through the report.
 
     Most of the connections are self-explanatory and comments have been
@@ -29,6 +29,8 @@
 `include "forwardingUnit.v"
 `include "hazardDetectionUnit.v"
 `include "controlHazardUnit.v"
+
+// Code begins here
 
 module mips (clk, rst);
 
@@ -67,7 +69,6 @@ module mips (clk, rst);
     // First MUX in circuit
     wire PC_Src;
 
-    //wire [31:0] adder_mux_out;
     MUX_32bit MUX4 (pc_out_IF, adder_out_MEM, PC_Src, pc_in_temp_IF);
 
     wire IFID_flush, IDEX_flush, EXMEM_flush;
